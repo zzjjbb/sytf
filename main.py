@@ -1,7 +1,6 @@
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
 
-hello = tf.constant('Hello, TensorFlow!')
-sess = tf.Session()
-print(np.array([1, 1, 2]))
-print(sess.run(hello))
+a = np.array([[1, 2, 3], [2, 3, 1], [3, 1, 2]])
+print(a.T)
